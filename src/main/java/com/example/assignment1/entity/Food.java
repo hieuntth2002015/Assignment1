@@ -1,6 +1,7 @@
 package com.example.assignment1.entity;
 
 import javax.xml.crypto.Data;
+import java.util.Date;
 
 public class Food {
     private int id;
@@ -9,17 +10,22 @@ public class Food {
     private String description;
     private String thumbnail;
     private double price;
-//    private Data start_date;
-//    private Data update_date;
+    private Date start_date;
+    private Date update_date;
     private String status;
 
-    public Food(int id, String name, int category_id, String description, String thumbnail, double price, String status) {
+    public Food() {
+    }
+
+    public Food(int id, String name, int category_id, String description, String thumbnail, double price, Date start_date, Date update_date, String status) {
         this.id = id;
         this.name = name;
         this.category_id = category_id;
         this.description = description;
         this.thumbnail = thumbnail;
         this.price = price;
+        this.start_date = start_date;
+        this.update_date = update_date;
         this.status = status;
     }
 
@@ -69,6 +75,22 @@ public class Food {
 
     public void setPrice(double price) {
         this.price = price;
+    }
+
+    public Date getStart_date() {
+        return start_date;
+    }
+
+    public void setStart_date(Date start_date) {
+        this.start_date = start_date;
+    }
+
+    public Date getUpdate_date() {
+        return update_date;
+    }
+
+    public void setUpdate_date(Date update_date) {
+        this.update_date = update_date;
     }
 
     public String getStatus() {

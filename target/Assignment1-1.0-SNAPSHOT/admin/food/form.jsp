@@ -40,7 +40,7 @@
             </div>
             <div class="w3-margin">
                 <label>Category ID</label>
-                <input class="w3-input" type="text" name="categoryid">
+                <input class="w3-input" type="text" name="category_id">
             </div>
             <div class="w3-margin">
                 <label>Description</label>
@@ -56,11 +56,11 @@
             </div>
 <%--            <div class="w3-margin">--%>
 <%--                <label>Start Date</label>--%>
-<%--                <input class="w3-input" type="url" name="startdate">--%>
+<%--                <input class="w3-input" type="url" name="start_date">--%>
 <%--            </div>--%>
 <%--            <div class="w3-margin">--%>
 <%--                <label>Update Date</label>--%>
-<%--                <input class="w3-input" type="url" name="updatedate">--%>
+<%--                <input class="w3-input" type="url" name="update_date">--%>
 <%--            </div>--%>
             <div class="w3-margin">
                 <label>Status</label>

@@ -40,8 +40,8 @@
                     <th>CategoryID</th>
                     <th>Price</th>
                     <th>Description</th>
-                  <%--  <th>Start Date</th>
-                    <th>Update Date</th>--%>
+                    <th>Start Date</th>
+                    <th>Update Date</th>
                     <th>Status</th>
                 </tr>
             <%
@@ -57,8 +57,8 @@
                     <th><%=list.get(i).getCategory_id()%></th>
                     <th><%=list.get(i).getDescription()%></th>
                     <th><%=list.get(i).getPrice()%></th>
-                   <%-- <th><%=list.get(i).getStart_date()%></th>
-                    <th><%=list.get(i).getUpdate_date()%></th>--%>
+                    <th><%=list.get(i).getStart_date()%></th>
+                    <th><%=list.get(i).getUpdate_date()%></th>
                     <th><%=list.get(i).getStatus()%></th>
                     <th>
                         <a href="admin/Food/detail?id=<%=list.get(i).getId()%>">Detail</a>&nbsp;
