@@ -6,26 +6,26 @@ import java.util.Date;
 public class Food {
     private int id;
     private String name;
-    private int category_id;
+    private int category;
     private String description;
     private String thumbnail;
     private double price;
-    private Date start_date;
-    private Date update_date;
+    private Date startdate;
+    private Date updatedate;
     private String status;
 
     public Food() {
     }
 
-    public Food(int id, String name, int category_id, String description, String thumbnail, double price, Date start_date, Date update_date, String status) {
+    public Food(int id, String name, int category, String description, String thumbnail, double price, Date startdate, Date updatedate, String status) {
         this.id = id;
         this.name = name;
-        this.category_id = category_id;
+        this.category = category;
         this.description = description;
         this.thumbnail = thumbnail;
         this.price = price;
-        this.start_date = start_date;
-        this.update_date = update_date;
+        this.startdate = startdate;
+        this.updatedate = updatedate;
         this.status = status;
     }
 
@@ -45,12 +45,12 @@ public class Food {
         this.name = name;
     }
 
-    public int getCategory_id() {
-        return category_id;
+    public int getCategory() {
+        return category;
     }
 
-    public void setCategory_id(int category_id) {
-        this.category_id = category_id;
+    public void setCategory(int category) {
+        this.category = category;
     }
 
     public String getDescription() {
@@ -77,20 +77,20 @@ public class Food {
         this.price = price;
     }
 
-    public Date getStart_date() {
-        return start_date;
+    public Date getStartdate() {
+        return startdate;
     }
 
-    public void setStart_date(Date start_date) {
-        this.start_date = start_date;
+    public void setStartdate(Date startdate) {
+        this.startdate = startdate;
     }
 
-    public Date getUpdate_date() {
-        return update_date;
+    public Date getUpdatedate() {
+        return updatedate;
     }
 
-    public void setUpdate_date(Date update_date) {
-        this.update_date = update_date;
+    public void setUpdatedate(Date updatedate) {
+        this.updatedate = updatedate;
     }
 
     public String getStatus() {

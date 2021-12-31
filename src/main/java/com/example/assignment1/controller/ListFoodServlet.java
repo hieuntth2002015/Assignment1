@@ -13,6 +13,7 @@ public class ListFoodServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        req.setAttribute("list", list);
         req.getRequestDispatcher("/admin/food/list.jsp").forward(req,resp);
     }
 }
